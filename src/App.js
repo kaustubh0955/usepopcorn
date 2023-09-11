@@ -60,7 +60,7 @@ export default function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState("");
   const [selectedId, setSelectedId] = useState(null);
-  let query = 0;
+
   /*
   let
   useEffect(function () {
